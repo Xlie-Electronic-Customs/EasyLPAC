@@ -158,7 +158,7 @@ func OpenProgram(name string) error {
 
 func Refresh() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	err := RefreshProfile()

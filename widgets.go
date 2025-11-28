@@ -188,7 +188,7 @@ func InitWidgets() {
 
 func downloadButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -200,7 +200,7 @@ func downloadButtonFunc() {
 
 func setNicknameButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -216,7 +216,7 @@ func setNicknameButtonFunc() {
 
 func deleteProfileButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -333,7 +333,7 @@ func deleteProfileButtonFunc() {
 
 func switchStateButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -391,7 +391,7 @@ func switchStateButtonFunc() {
 
 func processNotificationButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -408,7 +408,7 @@ func processNotificationButtonFunc() {
 
 func processAllNotificationButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -499,7 +499,7 @@ func processAllNotificationButtonFunc() {
 
 func removeNotificationButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -536,7 +536,7 @@ func removeNotificationButtonFunc() {
 
 func batchRemoveNotificationButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {
@@ -644,7 +644,7 @@ func copyEuiccInfo2ButtonFunc() {
 
 func setDefaultSmdpButtonFunc() {
 	if ConfigInstance.DriverIFID == "" {
-		ShowSelectCardReaderDialog()
+		ShowSelectDeviceDialog()
 		return
 	}
 	if RefreshNeeded {

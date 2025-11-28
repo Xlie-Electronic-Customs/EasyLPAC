@@ -53,8 +53,8 @@ label:
   aid_xesim_button: Xesim
   lpac_isdr_aid: lpac ISD-R AID
   lpac_debug_output: lpac debug output
-  enable_env_LIBEUICC_DEBUG_HTTP_check: Enable env LIBEUICC_DEBUG_HTTP
-  enable_env_LIBEUICC_DEBUG_APDU_check: Enable env LIBEUICC_DEBUG_APDU
+  enable_env_LPAC_DEBUG_HTTP_check: Enable env LPAC_DEBUG_HTTP
+  enable_env_LPAC_DEBUG_APDU_check: Enable env LPAC_DEBUG_APDU
   easylpac_settings: EasyLPAC settings
   auto_process_notification_check: Auto process notification
   version: "Version:"
@@ -81,7 +81,7 @@ label:
   manufacturer: "Manufacturer:"
   manufacturer_unknown: "Manufacturer: Unknown"
   free_space: "Free space:"
-  card_reader: "Card Reader:"
+  device: "Device:"
 
 dialog:
   hint: Hint
@@ -131,10 +131,10 @@ message:
   confirm_code_required: "This profile needs confirm code to download.\nPlease fill the confirm code manually."
   lpac_error: Please check the log for details
   select_item: Please select a item.
-  select_card_reader: Please select a card reader.
+  select_device: Please select a device.
   refresh_required: Please refresh before proceeding.
   failed_to_decode_euiccinfo2: "chip Info: failed to decode EUICCInfo2"
   qr_code_format_error: failed to decode LPA Activation Code from QR Code
 
-thanks_to: "# Thanks to\n\n[lpac](https://github.com/estkme-group/lpac) C-based eUICC LPA\n\n[eUICC Manual](https://euicc-manual.osmocom.org) eUICC Developer Manual\n\n[fyne](https://github.com/fyne-io/fyne) Material Design GUI toolkit"
-about: "# EasyLPAC\n\nlpac GUI Frontend\n\n[Github](https://github.com/creamlike1024/EasyLPAC) Repo "
+thanks_to: "# This is a fork of the\n\n[EasyLPAC](https://github.com/creamlike1024/EasyLPAC)\n\n[lpac fork](https://github.com/Xlie-Electronic-Customs/lpac) C-based eUICC LPA Fork"
+about: "# EasyLPAC\n\nlpac GUI Frontend Fork\n\n[Github](https://github.com/Xlie-Electronic-Customs/EasyLPAC) Repo "

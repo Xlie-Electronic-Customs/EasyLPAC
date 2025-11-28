@@ -53,8 +53,8 @@ label:
   aid_xesim_button: Xesim
   lpac_isdr_aid: lpac ISD-R AID
   lpac_debug_output: lpac 除錯輸出
-  enable_env_LIBEUICC_DEBUG_HTTP_check: 啟用 LIBEUICC_DEBUG_HTTP 環境
-  enable_env_LIBEUICC_DEBUG_APDU_check: 啟用 LIBEUICC_DEBUG_APDU 環境
+  enable_env_LPAC_DEBUG_HTTP_check: 啟用 LPAC_DEBUG_HTTP 環境
+  enable_env_LPAC_DEBUG_APDU_check: 啟用 LPAC_DEBUG_APDU 環境
   easylpac_settings: EasyLPAC 設定
   auto_process_notification_check: 自動處理通知
   version: "版本:"
@@ -81,7 +81,7 @@ label:
   manufacturer: "製造商:"
   manufacturer_unknown: "製造商: 未知"
   free_space: "可用空間:"
-  card_reader: "讀卡機:"
+  device: "讀卡機:"
 
 dialog:
   hint: 提示
@@ -131,7 +131,7 @@ message:
   confirm_code_required: "此設定檔需要確認碼才能下載。\n請手動填寫確認碼。"
   lpac_error: 請查看日誌了解詳情
   select_item: 請選擇一個項目。
-  select_card_reader: 請選擇一個讀卡機。
+  device: 請選擇一個讀卡機。
   refresh_required: 請重新整理新再繼續。
   failed_to_decode_euiccinfo2: "晶片資訊: 無法解碼 EUICCInfo2 資訊"
   qr_code_format_error: 無法從二維碼解碼 LPA 啟動碼

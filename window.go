@@ -45,7 +45,7 @@ func InitMainWindow() fyne.Window {
 		container.NewBorder(
 			nil,
 			nil,
-			widget.NewLabel(TR.Trans("label.card_reader")),
+			widget.NewLabel(TR.Trans("label.device")),
 			nil,
 			container.NewHBox(container.NewGridWrap(fyne.Size{
 				Width:  280,
@@ -166,14 +166,14 @@ func InitMainWindow() fyne.Window {
 
 		&widget.Label{Text: TR.Trans("label.lpac_debug_output"), TextStyle: fyne.TextStyle{Bold: true}},
 		&widget.Check{
-			Text:    TR.Trans("label.enable_env_LIBEUICC_DEBUG_HTTP_check"),
+			Text:    TR.Trans("label.enable_env_LPAC_DEBUG_HTTP_check"),
 			Checked: false,
 			OnChanged: func(b bool) {
 				ConfigInstance.DebugHTTP = b
 			},
 		},
 		&widget.Check{
-			Text:    TR.Trans("label.enable_env_LIBEUICC_DEBUG_APDU_check"),
+			Text:    TR.Trans("label.enable_env_LPAC_DEBUG_APDU_check"),
 			Checked: false,
 			OnChanged: func(b bool) {
 				ConfigInstance.DebugAPDU = b
@@ -445,9 +445,9 @@ func ShowSelectItemDialog() {
 	}()
 }
 
-func ShowSelectCardReaderDialog() {
+func ShowSelectDeviceDialog() {
 	go func() {
-		dialog.ShowInformation(TR.Trans("dialog.info"), TR.Trans("message.select_card_reader"), WMain)
+		dialog.ShowInformation(TR.Trans("dialog.info"), TR.Trans("message.select_device"), WMain)
 	}()
 }
 

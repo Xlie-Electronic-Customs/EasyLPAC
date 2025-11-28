@@ -53,8 +53,8 @@ label:
   aid_xesim_button: Xesim
   lpac_isdr_aid: lpac ISD-R AID
   lpac_debug_output: lpac デバッグ出力
-  enable_env_LIBEUICC_DEBUG_HTTP_check: LIBEUICC_DEBUG_HTTP を有効化する
-  enable_env_LIBEUICC_DEBUG_APDU_check: LIBEUICC_DEBUG_APDU を有効化する
+  enable_env_LPAC_DEBUG_HTTP_check: LPAC_DEBUG_HTTP を有効化する
+  enable_env_LPAC_DEBUG_APDU_check: LPAC_DEBUG_APDU を有効化する
   easylpac_settings: EasyLPAC の設定
   auto_process_notification_check: 通知を自動で処理する
   version: "バージョン:"
@@ -81,7 +81,7 @@ label:
   manufacturer: "製造:"
   manufacturer_unknown: "製造: 不明"
   free_space: "空き容量:"
-  card_reader: "カードリーダー:"
+  device: "カードリーダー:"
 
 dialog:
   hint: ヒント
@@ -131,7 +131,7 @@ message:
   confirm_code_required: "このプロファイルをダウンロードするには確認コードが必要です。\n確認コードを手動で入力してください。"
   lpac_error: 詳細はログを確認してください。
   select_item: 項目を選択してください。
-  select_card_reader: カードリーダーを選択してください。
+  device: カードリーダーを選択してください。
   refresh_required: 続行する前に更新してください。
   failed_to_decode_euiccinfo2: "チップ情報: EUICCInfo2 のデコードに失敗しました"
   qr_code_format_error: QR コードから LPA アクティベーションコードのデコードに失敗しました
